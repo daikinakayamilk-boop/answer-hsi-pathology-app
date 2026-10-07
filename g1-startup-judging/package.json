@@ -1,0 +1,14 @@
+{
+  "name": "g1-startup-grandprix-judging",
+  "version": "1.0.0",
+  "private": true,
+  "description": "G-1 Startup Grand Prix Japan Qualifier judging form",
+  "main": "server.js",
+  "scripts": {"start":"node server.js"},
+  "engines": {"node": ">=20"},
+  "dependencies": {
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.13.1"
+  }
+}
